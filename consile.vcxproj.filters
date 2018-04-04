@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{c03be4af-192d-4ee5-bdac-e3534ab7ce18}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Chess_headers">
+      <UniqueIdentifier>{21a4bf9c-400d-4915-a6ff-e87f266ae167}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chess_cpp">
+      <UniqueIdentifier>{e74e8c98-4680-4dcd-a35c-c4baf630dab3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Console.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="consile.cpp">
+      <Filter>Chess_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Chess.cpp">
+      <Filter>Chess_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Piece.cpp">
+      <Filter>Chess_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="R32M.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Console.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Chess_headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Chess.h">
+      <Filter>Chess_headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Piece.h">
+      <Filter>Chess_headers</Filter>
+    </ClInclude>
+    <ClInclude Include="R32M.H" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
